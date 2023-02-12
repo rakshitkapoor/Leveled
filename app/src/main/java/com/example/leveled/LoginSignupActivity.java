@@ -14,7 +14,6 @@ import android.view.WindowManager;
 
 
 public class LoginSignupActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,5 +21,13 @@ public class LoginSignupActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_dashboard);
     }
+
+    public void Onlogin(View view){
+        // we will handle the click on the button here
+
+        Intent intent =new Intent(LoginSignupActivity.this,LoginActivity.class);
+        startActivity(intent);
+    }
+
 
 }
