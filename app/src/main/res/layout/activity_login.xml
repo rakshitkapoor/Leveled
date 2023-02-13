@@ -40,6 +40,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox"
+            android:textAppearance="@style/TextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Username" />
@@ -53,6 +54,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox"
+            android:textAppearance="@style/TextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password" />
@@ -62,6 +64,7 @@
     <CheckBox
         android:id="@+id/checkBox"
         style="@style/Widget.Material3.CompoundButton.CheckBox"
+        android:textAppearance="@style/TextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:checked="true"
@@ -80,8 +83,8 @@
         android:id="@+id/imageButton"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="100dp"
         android:layout_marginLeft="145dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/login_buttonbg"
         app:srcCompat="@drawable/googleg_standard_color_18" />
 
